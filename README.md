@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# JansevaHelp-AI
 
-# Run and deploy your AI Studio app
+### Turning citizen voices into smarter development priorities.
 
-This contains everything you need to run your app locally.
+JansevaHelp-AI is a multilingual AI-powered citizen development intelligence platform designed for India. It uses Google Gemini to understand citizen requests, structure development needs, identify demand hotspots, and generate explainable development recommendations for policymakers.
 
-View your app in AI Studio: https://ai.studio/apps/7fc36b7c-c6ec-4e6c-889a-a76858469154
+## Problem
 
-## Run Locally
+Citizen development requests are fragmented across languages, locations and channels, making it difficult to identify patterns and infrastructure priorities.
 
-**Prerequisites:**  Node.js
+## Solution
 
+JansevaHelp-AI converts citizen voice/text requests into structured development intelligence and continuously aggregates demand across districts and states.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Google AI
+
+Google Gemini is used for:
+
+- Multilingual citizen-request understanding
+- Language detection
+- Request classification
+- Problem and solution extraction
+- Urgency analysis
+- Development recommendation generation
+
+## Core Flow
+
+Citizen Request
+→ Gemini AI
+→ Structured Data
+→ Real-Time Aggregation
+→ Demand Hotspots
+→ Priority Signals
+→ AI Recommendations
+
+## Built for India
+
+The platform is designed around:
+
+- Indian states and districts
+- Marathi, Hindi and English
+- District-level development analysis
+- Scalable citizen-request data
+
+## Data
+
+The prototype uses synthetic/demo data where official live datasets are not connected. Demo data is clearly labeled and should not be interpreted as official government statistics.
+
+## Disclaimer
+
+JansevaHelp-AI is a prototype decision-support system. It does not make autonomous government decisions or determine actual public spending.
+
+## Hackathon
+
+Build with AI: Code for Communities — Second Edition
+
+Theme: Innovation
