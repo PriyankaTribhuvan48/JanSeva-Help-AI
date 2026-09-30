@@ -1,0 +1,6 @@
+{
+  "name": "JansevaHelp-AI",
+  "description": "Turning citizen voices into smarter development priorities across India with multilingual AI understanding, real-time demand aggregation, and explainable recommendations.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
